@@ -6,11 +6,8 @@ class Footer extends Component{
     render(){
       
         return(
-            <div>
-            <ul className='footer'>
-              <li>Copyrights@2019</li>
-              <li>Contact us</li>
-            </ul>
+            <div className="bigfoot">
+             <img src="/pics/jumiatail.png" alt="jumiatail" width="100%"/>
              </div>
         )
     }

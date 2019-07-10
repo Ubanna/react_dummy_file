@@ -29,3 +29,184 @@ nav {
   color: white;
   list-style: none;
 }
+
+
+#input-container
+{
+    position: absolute;
+    top: 8.5%;
+    left: 52%;
+    margin-right:40px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: .5s;
+    border: 1px solid black;
+}
+input[id="fname"]
+{
+    background: white;
+    width: 380px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border: 1px solid black;
+    /* border-radius: 25px 0 0 25px; */
+}
+
+button
+{
+    position: relative;
+    left: -5px;
+    /* border-radius: 0 25px 25px 0; */
+    width: 150px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #DAA520;
+    color: #fff;
+
+}
+.btnMain:hover {
+    background: #ff0000;
+}
+
+.appy + .appy {
+  margin: 0 0 25px;
+ }
+
+ input + .btnMain {
+  margin: 0 25px;
+ }
+
+
+ .headUl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: flex;
+  top: 100%;
+  margin-top: -65px;
+  margin-right: -180px;
+
+}
+
+
+.appy .headLi {
+  width: 150px;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  top: 90%;
+  
+}
+
+.appy:hover {
+  background: #669900;
+  transition: 0.6s;
+}
+
+.bigfoot {
+  position: relative;
+  max-height: 100%;
+  margin-top: 575px;
+
+}
+
+.bodyUl{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    justify-content: flex-end;
+    /* display: flex; */
+}
+
+.newAppy .bodyLi {
+  list-style: none;
+  width: 150px;
+  /* line-height: 20px; */
+  text-decoration: none;
+  /* color: black; */
+  /* display: block; */
+  font-size: 10px;
+  text-align: left;
+  padding: 2px;
+  /* border-radius: 10px; */
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: flex-end;
+  /* font-weight: bold;
+  top: 90%; */
+  
+}
+
+.newAppy .bodyLi :hover {
+  background: #669900;
+  transition: 0.6s;
+}
+
+.bodyDiv {
+  position: absolute;
+  margin-top:80px;
+  display: flex;
+  margin-left: 320px;
+}
+
+.products {
+margin-left: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  text-align: center;
+  width:80px;
+  margin-top: 310px;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50% */
+}
+
+/* .products>* {
+   flex: 0 0 45%;
+} */
+
+
+.product {
+  border: 1px solid black;
+  
+  /* width: 50px; */
+}
+
+.cart {
+  text-decoration: none;
+  color: black;
+}
+
+.cartText {
+  border: 1px solid black;
+  width: 1350px;
+ margin-left:300px;
+ margin-top: 400px;
+
+}
+
+.grid {
+  position: absolute;
+  margin-top: -235px;
+}
+
